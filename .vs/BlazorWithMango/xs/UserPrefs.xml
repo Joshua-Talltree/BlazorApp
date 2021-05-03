@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{67C4F5A1-88D3-43DB-86EB-EC79F02F19BF}|Default">
+  <MonoDevelop.Ide.ItemProperties.BlazorWithMango PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/Models/EmployeeData.cshtml.cs">
+    <Files>
+      <File FileName="Shared/Models/Cities.cs" Line="16" Column="2" />
+      <File FileName="Shared/Models/Employee.cs" Line="19" Column="2" />
+      <File FileName="Shared/Models/EmployeeDBContext.cs" Line="29" Column="10" />
+      <File FileName="DataAccess/EmployeeDataAccessLayer.cs" Line="78" Column="14" />
+      <File FileName="EmployeeController.cs" Line="57" Column="2" />
+      <File FileName="Pages/EmployeeData.cshtml" Line="13" Column="7" />
+      <File FileName="Shared/Models/EmployeeData.cshtml.cs" Line="4" Column="23" />
+      <File FileName="Shared/NavMenu.razor.css" Line="1" Column="1" />
+      <File FileName="Shared/NavMenu.cshtml" Line="8" Column="65" />
+      <File FileName="Shared/Models/BlazorComponent.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BlazorWithMango" expanded="True">
+            <Node name="BlazorWithMango" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="Models" expanded="True">
+                  <Node name="EmployeeData.cshtml.cs" selected="True" />
+                </Node>
+                <Node name="NavMenu.razor" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

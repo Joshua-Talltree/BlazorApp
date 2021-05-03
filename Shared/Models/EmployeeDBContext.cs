@@ -1,11 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using MongoDB.Driver;
 
-namespace BlazorWithMango.Shared.Models
+namespace BlazorWithMongo.Shared.Models
 {
     public class EmployeeDBContext
     {
+        private readonly IMongoDatabase _mongoDatabase;
+
+        public EmployeeDBContext()
+        {
+            var client = new MongoClient("mongodb://localhost:27017");
+            _mongoDatabase = client.GetDatabase("EmployeeDB");
+        }
+
+        public IMongoCollection<Employee> EmployeeRecord
+        {
+            get
+            {
+                return (IMongoCollection<Employee>)_mongoDatabase.GetCollection<Employee>("EmployeeRecord");
+            }
+        }
+
+        public IMongoCollection<Cities> CityRecord
+        {
+            get
+            {
+                return _mongoDatabase.GetCollection<Cities>("Cities");
+            }
+        }
     }
 }

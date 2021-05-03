@@ -449,26 +449,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jtree\\.nuget\\packages\\": {}
+    "/Users/joshuatalltree/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jtree\\source\\repos\\BlazorWithMango\\BlazorWithMango.csproj",
+      "projectUniqueName": "/Users/joshuatalltree/Projects/BlazorApp/BlazorWithMango.csproj",
       "projectName": "BlazorWithMango",
-      "projectPath": "C:\\Users\\jtree\\source\\repos\\BlazorWithMango\\BlazorWithMango.csproj",
-      "packagesPath": "C:\\Users\\jtree\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jtree\\source\\repos\\BlazorWithMango\\obj\\",
+      "projectPath": "/Users/joshuatalltree/Projects/BlazorApp/BlazorWithMango.csproj",
+      "packagesPath": "/Users/joshuatalltree/.nuget/packages/",
+      "outputPath": "/Users/joshuatalltree/Projects/BlazorApp/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jtree\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/joshuatalltree/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -510,7 +512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
